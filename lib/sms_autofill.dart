@@ -310,7 +310,6 @@ class _TextFieldPinAutoFillState extends State<TextFieldPinAutoFill>
   @override
   void dispose() {
     cancel();
-    widget.textController.dispose();
     super.dispose();
   }
 }
